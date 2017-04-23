@@ -8,7 +8,7 @@ public class PlayerControler : MonoBehaviour {
 
     public Rigidbody2D rb;
     public float forcefactor; //horizontalerichtung
-    public float maxspeed = 5f;
+    public float maxspeed = 10f;
 
     private bool jump;
     public float jumpForce;
