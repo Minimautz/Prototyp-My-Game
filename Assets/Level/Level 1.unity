@@ -809,7 +809,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Demotext
+  m_Text: "N\xFCsschen: 0"
 --- !u!222 &590531209
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2406,6 +2406,11 @@ Prefab:
         type: 2}
       propertyPath: velocityDamageThreshold
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114102994416414506, guid: ada0268bceec2e844a2e0d60f712f068,
+        type: 2}
+      propertyPath: levelName
+      value: Level 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ada0268bceec2e844a2e0d60f712f068, type: 2}
