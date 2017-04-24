@@ -23,6 +23,8 @@ public class PlayerControler : MonoBehaviour {
 
     public Animator animator;
 
+    public string levelName;
+
     private bool onClimble;
 
     public float velocityDamageThreshold;
@@ -85,7 +87,7 @@ public class PlayerControler : MonoBehaviour {
 
         yield return new WaitForSeconds(2f);
 
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene(levelName);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
