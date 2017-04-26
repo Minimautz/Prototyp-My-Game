@@ -68,8 +68,7 @@ public class PlayerControler : MonoBehaviour {
         }
 
         animator.speed = Mathf.Abs(rb.velocity.x) / maxspeed;
-        Debug.Log(rb.velocity);
-               
+             
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
