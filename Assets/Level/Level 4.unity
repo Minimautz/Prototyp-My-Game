@@ -11490,73 +11490,6 @@ SpriteRenderer:
   m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
---- !u!1 &879719936
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 879719939}
-  - component: {fileID: 879719938}
-  - component: {fileID: 879719937}
-  m_Layer: 0
-  m_Name: totheSky
-  m_TagString: change Level
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &879719937
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 879719936}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce96290ad79b5f94c8e22a0dee569ebc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelname: Sky
---- !u!61 &879719938
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 879719936}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!4 &879719939
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 879719936}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.85, y: 3.37, z: 0}
-  m_LocalScale: {x: 0.6341329, y: 0.63413256, z: 0.63413256}
-  m_Children: []
-  m_Father: {fileID: 1528119163}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &885943202
 GameObject:
   m_ObjectHideFlags: 0
@@ -20123,7 +20056,6 @@ Transform:
   - {fileID: 639347591}
   - {fileID: 1795474734}
   - {fileID: 1648587757}
-  - {fileID: 879719939}
   m_Father: {fileID: 636206009}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23860,7 +23792,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1868825138}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 19.1, y: 8.7, z: -10.3}
+  m_LocalPosition: {x: 37, y: 34, z: -10.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 314088549}
@@ -25423,11 +25355,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4003823078419788, guid: ada0268bceec2e844a2e0d60f712f068, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 14.700001
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4003823078419788, guid: ada0268bceec2e844a2e0d60f712f068, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 7
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 4003823078419788, guid: ada0268bceec2e844a2e0d60f712f068, type: 2}
       propertyPath: m_LocalPosition.z
@@ -25465,6 +25397,11 @@ Prefab:
     - target: {fileID: 4840314555667498, guid: ada0268bceec2e844a2e0d60f712f068, type: 2}
       propertyPath: m_LocalPosition.y
       value: -2.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 114102994416414506, guid: ada0268bceec2e844a2e0d60f712f068,
+        type: 2}
+      propertyPath: levelName
+      value: Level 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ada0268bceec2e844a2e0d60f712f068, type: 2}
