@@ -701,7 +701,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 494354483}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.96, y: -3.09, z: 0}
+  m_LocalPosition: {x: -13.22, y: -2.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -988,7 +988,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   kotzi: {fileID: 494354483}
   ui: {fileID: 1343792623}
-  levelname: Level 3
+  levelname: Startscreen
 --- !u!4 &652887106
 Transform:
   m_ObjectHideFlags: 0
@@ -1052,7 +1052,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 5b8188aa2562a5c4f80f4904c2e5748f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 11.31, y: 6.65}
@@ -1121,7 +1121,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 96b930db434c9294eb095d5931a1a6db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 8.31, y: 3.69}

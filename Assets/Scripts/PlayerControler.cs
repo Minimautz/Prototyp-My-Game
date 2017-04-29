@@ -95,7 +95,7 @@ public class PlayerControler : MonoBehaviour {
         {
             Destroy(other.gameObject);
             count++;
-            score.text = "Nüsschen :" + count;  
+            score.text = "Acorns :" + count;  
         }
                 
         if (other.CompareTag("Climble"))
