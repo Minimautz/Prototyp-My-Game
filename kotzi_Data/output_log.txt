@@ -15,7 +15,7 @@ Platform assembly: C:\Users\ange_\Documents\Unity Projekt\Prototyp-My-Game\kotzi
 Loading C:\Users\ange_\Documents\Unity Projekt\Prototyp-My-Game\kotzi_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\ange_\Documents\Unity Projekt\Prototyp-My-Game\kotzi_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\ange_\Documents\Unity Projekt\Prototyp-My-Game\kotzi_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.051 seconds
+- Completed reload, in  0.041 seconds
 Platform assembly: C:\Users\ange_\Documents\Unity Projekt\Prototyp-My-Game\kotzi_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\ange_\Documents\Unity Projekt\Prototyp-My-Game\kotzi_Data\Managed\System.dll (this message is harmless)
 WARNING: Shader Unsupported: 'Hidden/VR/BlitCopyFromTexArray' - Pass '' has no vertex shader
@@ -25,37 +25,37 @@ desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.929776 ms
+UnloadTime: 2.886432 ms
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 9.131340 ms
+UnloadTime: 11.206430 ms
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 344.
-Total: 0.425312 ms (FindLiveObjects: 0.038603 ms CreateObjectMapping: 0.032507 ms MarkObjects: 0.333206 ms  DeleteObjects: 0.019640 ms)
+Total: 0.421925 ms (FindLiveObjects: 0.037925 ms CreateObjectMapping: 0.032507 ms MarkObjects: 0.329142 ms  DeleteObjects: 0.021671 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.615618 ms
+UnloadTime: 0.702306 ms
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 0.554666 ms (FindLiveObjects: 0.075174 ms CreateObjectMapping: 0.036571 ms MarkObjects: 0.324402 ms  DeleteObjects: 0.118518 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1564.
+Total: 0.605460 ms (FindLiveObjects: 0.111068 ms CreateObjectMapping: 0.035216 ms MarkObjects: 0.341333 ms  DeleteObjects: 0.117163 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.820739 ms
+
+Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 410.
+Total: 5.332654 ms (FindLiveObjects: 0.050793 ms CreateObjectMapping: 0.044698 ms MarkObjects: 0.442243 ms  DeleteObjects: 4.793564 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.901417 ms
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 337.
+Total: 0.625777 ms (FindLiveObjects: 0.030476 ms CreateObjectMapping: 0.038603 ms MarkObjects: 0.306116 ms  DeleteObjects: 0.249904 ms)
 
 Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.321226 ms
+UnloadTime: 0.910899 ms
 
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1568.
-Total: 0.904126 ms (FindLiveObjects: 0.195724 ms CreateObjectMapping: 0.071788 ms MarkObjects: 0.624423 ms  DeleteObjects: 0.009481 ms)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.175999 ms
-
-Unloading 38 unused Assets to reduce memory usage. Loaded Objects now: 406.
-Total: 4.668950 ms (FindLiveObjects: 0.063661 ms CreateObjectMapping: 0.052825 ms MarkObjects: 0.393481 ms  DeleteObjects: 4.157628 ms)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.166899 ms
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 406.
-Total: 0.535026 ms (FindLiveObjects: 0.044021 ms CreateObjectMapping: 0.038603 ms MarkObjects: 0.443597 ms  DeleteObjects: 0.008126 ms)
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 289.
+Total: 0.657608 ms (FindLiveObjects: 0.047407 ms CreateObjectMapping: 0.060275 ms MarkObjects: 0.344719 ms  DeleteObjects: 0.204529 ms)
 
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 6710 -> priority: 1 
-  Thread -> id: 6698 -> priority: 1 
+  Thread -> id: 6960 -> priority: 1 
+  Thread -> id: 6b8c -> priority: 1 
