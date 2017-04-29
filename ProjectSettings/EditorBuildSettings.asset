@@ -19,4 +19,7 @@ EditorBuildSettings:
     guid: 773a6c5b9f4e9464b85149b4b558fac4
   - enabled: 1
     path: Assets/Level/Sky.unity
+    guid: e9ba795cd65eb0c45874bb1dd38a5afb
+  - enabled: 1
+    path: Assets/Level/Intro.unity
     guid: 00000000000000000000000000000000

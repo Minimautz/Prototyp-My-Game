@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 21fba3f17c376a24fad7b76ee927480e
-timeCreated: 1493403886
+guid: 05841b361bdf43c48933ab73d803860b
+timeCreated: 1493417652
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Funki sit_0
-    21300002: Funki sit_1
-    21300004: Funki sit_2
+    21300000: vogelfly_0
+    21300002: vogelfly_1
+    21300004: vogelfly_2
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -73,39 +73,39 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Funki sit_0
+      name: vogelfly_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 156.66667
-        height: 166
+        width: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Funki sit_1
+      name: vogelfly_1
       rect:
         serializedVersion: 2
-        x: 156
+        x: 32
         y: 0
-        width: 156.66667
-        height: 166
+        width: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Funki sit_2
+      name: vogelfly_2
       rect:
         serializedVersion: 2
-        x: 312
+        x: 64
         y: 0
-        width: 156.66667
-        height: 166
+        width: 32
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -15,6 +15,7 @@ TagManager:
   - HealthBar
   - Collectible
   - Climble
+  - change Level
   layers:
   - Default
   - TransparentFX

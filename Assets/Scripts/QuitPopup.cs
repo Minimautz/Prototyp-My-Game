@@ -10,8 +10,6 @@ public class QuitPopup : MonoBehaviour {
     public void Quit()
     {
         Application.Quit();
-
-        Debug.Log("mäh");
     }
 
     public void Return()
