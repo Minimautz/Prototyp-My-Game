@@ -23,9 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level/Sky.unity
     guid: e9ba795cd65eb0c45874bb1dd38a5afb
-  - enabled: 1
-    path: Assets/Level/Level 4.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/cbc39b5447c61024aa27a5eb25e4d4df
     guid: cbc39b5447c61024aa27a5eb25e4d4df
+  - enabled: 1
+    path: Assets/Level/Level 3b.unity
+    guid: 514f98cb1f2b3e5478bd134a89b63291
   - enabled: 1
     path: Assets/Level/Endscreen.unity
     guid: 8b7fe77b24cce1248b838fecc0da3010

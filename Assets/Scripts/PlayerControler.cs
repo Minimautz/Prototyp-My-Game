@@ -73,6 +73,7 @@ public class PlayerControler : MonoBehaviour {
     {
         if (collision.relativeVelocity.magnitude > velocityDamageThreshold)
         {
+            SaveStatus.count = 0;
             StartCoroutine(DestroyAndWait());
         }
     }
