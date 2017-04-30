@@ -779,7 +779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.8, y: 11.2}
+  m_AnchoredPosition: {x: 2.3, y: 18}
   m_SizeDelta: {x: 99.8, y: 152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &536001144
@@ -831,7 +831,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "It was nice to meet \nyou. \nI had a lot of fun, \ndid you enjoy our little
-    \njourney too?\n\n       /15"
+    \njourney too?\n\n                 /15"
 --- !u!222 &536001146
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1136,7 +1136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1343792624
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1245,12 +1245,12 @@ Prefab:
     - target: {fileID: 224952118318634946, guid: b856a5242c980b14d914e3ec7e0ca2ee,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 21
+      value: 19.4
       objectReference: {fileID: 0}
     - target: {fileID: 224952118318634946, guid: b856a5242c980b14d914e3ec7e0ca2ee,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -143
+      value: -138.3
       objectReference: {fileID: 0}
     - target: {fileID: 224952118318634946, guid: b856a5242c980b14d914e3ec7e0ca2ee,
         type: 2}
@@ -1321,6 +1321,11 @@ Prefab:
         type: 2}
       propertyPath: m_Color.b
       value: 0.39607844
+      objectReference: {fileID: 0}
+    - target: {fileID: 114028129460278778, guid: b856a5242c980b14d914e3ec7e0ca2ee,
+        type: 2}
+      propertyPath: m_Text
+      value: 'Arcons: 15'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b856a5242c980b14d914e3ec7e0ca2ee, type: 2}

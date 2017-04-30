@@ -15,11 +15,11 @@ public class CameraFollower : MonoBehaviour {
         float xbla = player.localPosition.x - transform.localPosition.x;
         if (xbla > 0)
         {
-            transform.localPosition = new Vector3(player.localPosition.x, player.localPosition.y, transform.localPosition.z); // will da die Koordinaten von Kotzi nutzen
+            transform.localPosition = new Vector3(player.localPosition.x, player.localPosition.y+3, transform.localPosition.z); // will da die Koordinaten von Kotzi nutzen
         }
         else
         {
-            transform.localPosition = new Vector3(transform.localPosition.x, player.localPosition.y, transform.localPosition.z);
+            transform.localPosition = new Vector3(transform.localPosition.x, player.localPosition.y+3 , transform.localPosition.z);
         }
 
       
