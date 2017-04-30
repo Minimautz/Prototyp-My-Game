@@ -18,7 +18,7 @@ public class PlayerControler : MonoBehaviour {
 
     public Transform graphic;
 
-    private int count;
+    
     public Text score;
 
     public Animator animator;
@@ -31,7 +31,7 @@ public class PlayerControler : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-                
+        SaveStatus.count = 0;  
 	}
 
     // Update is called once per frame
@@ -94,8 +94,9 @@ public class PlayerControler : MonoBehaviour {
         if (other.CompareTag("Collectible"))
         {
             Destroy(other.gameObject);
-            count++;
-            score.text = "Acorns :" + count;  
+            score.text = "Acorns : " + SaveStatus.count;
+            SaveStatus.count = SaveStatus.count +1;
+            print(SaveStatus.count);
         }
                 
         if (other.CompareTag("Climble"))
@@ -113,4 +114,6 @@ public class PlayerControler : MonoBehaviour {
             rb.gravityScale = 1;
         }
     }
+
+
 }
